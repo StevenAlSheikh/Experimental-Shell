@@ -1,0 +1,18 @@
+# Course: CS 480
+# Professor Guy Leonard
+# Year: 2024
+# Programming Assignment #2
+# Group members:
+# Name: Steven Al-Sheikh
+# RedID: 826493311
+#  Edoras account: cssc4457
+# Name: Moe Jawadi
+# RedID: 130102437
+# Edoras account: cssc4444
+
+xsh: main.cpp
+	g++ -std=c++11 -o xsh xsh.cpp main.cpp
+	./xsh
+
+clean:
+	rm -f xsh
